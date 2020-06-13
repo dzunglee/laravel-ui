@@ -1,0 +1,171 @@
+.lds-dual-ring{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background-color: #fff;
+    visibility: visible;
+    will-change: transform;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translateY(0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+body{
+    overflow-y: hidden;
+}
+.menu_header{
+    padding-left: 28px;
+}
+.navbar ul.nav.navbar-nav.navbar-right.number_phone{
+    position: absolute;
+    right: 45px;
+}
+
+/** code by webdevtrick ( https://webdevtrick.com ) **/
+.pen {
+    color: #036;
+}
+canvas.particles-js-canvas-el{
+    height:650px !important;
+}
+.text0{float:left;}
+.text {
+    color:#000 !important;
+    font-weight:bold;
+    margin-left: 5px;
+    float: left;
+    font-family:Montserrat Bold !important;
+}
+.slogan_banner{
+    padding-left:23px;
+    padding-right:23px;
+}
+.banner-index .description{
+    position:absolute; top: 240px;
+}
+.banner-index .description h1{
+    font-size: 50px; font-weight: bold; font-family:Montserrat Bold;
+    margin-bottom:13px;
+    margin-top: 22px;
+}
+.banner-index .description h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: #eb1c23;
+    font-family:Montserrat Bold;
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+body .banner-index .description p{
+    margin-top: 19px;
+}
+.banner-index .description p, .banner-index .description div{
+    color:#7e7e7e;font-family:Montserrat Light; font-size: 23px;
+    margin-top: -3px;
+    margin-bottom: 19px;
+    margin-right:2px;
+}
+#particles-js{
+    color:red;
+}
+/* mastermaulid */
+@media only screen and (max-width: 767px) {
+    .col-service{}
+}
+#height_380{
+}
+.element-item{
+    overflow: hidden;
+}
+.element-item .thumb{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item .thumb img{
+    width:180%; position: absolute;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item{}
+.isotope{height: auto !important;}
+.read_more {
+    margin-top: 63px !important;
+}
+@media only screen and (max-width: 767px) {
+    .col-service{}
+}
+#height_354{
+}
+
+.element-item{
+    overflow: hidden;
+}
+.element-item .thumb{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item .thumb img{
+    width:180%; position: absolute;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item{}
+.isotope{height: auto !important;}
+.read_more {
+    margin-top: 63px !important;
+}
+/*COL-1*/
+@media only screen and (max-width: 767px) {
+    .col-service{}
+}
+#height_420{
+}
+
+.element-item{
+    overflow: hidden;
+}
+.element-item .thumb{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item .thumb img{
+    width:180%; position: absolute;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.element-item{}
+.isotope{height: auto !important;}
+.read_more {
+    margin-top: 63px !important;
+}
