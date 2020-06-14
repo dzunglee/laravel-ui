@@ -28,6 +28,7 @@ mix.styles([
     assetPath + '/css/bootstrap.min.css',
     assetPath + '/css/reset.css',
     assetPath + '/css/style.css',
+    assetPath + '/css/menu-style.css',
     assetPath + '/css/custom.css',
     assetPath + '/css/custom_responsive.css',
     assetPath + '/css/custom_hai.css',
