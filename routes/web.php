@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'FrontendController@home')->name('home');
+Route::get('/about', 'FrontendController@about')->name('about');
+Route::get('/services', 'FrontendController@services')->name('services');
+Route::get('/projects', 'FrontendController@projects')->name('projects');
+Route::get('/blog', 'FrontendController@blog')->name('blog');
+Route::get('/contact', 'FrontendController@contact')->name('contact');

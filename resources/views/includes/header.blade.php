@@ -19,28 +19,28 @@
             <!-- Navigation Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="http://hocdang.com#about" class="nav-link" id="menu-item-0">
+                    <li class="nav-item {{request()->is('about')?'active':''}}">
+                        <a href="{{route('about')}}" class="nav-link" id="menu-item-0">
                             GIỚI THIỆU
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="http://hocdang.com#games" class="nav-link" id="menu-item-1">
+                    <li class="nav-item {{request()->is('services')?'active':''}}">
+                        <a href="{{route('services')}}" class="nav-link" id="menu-item-1">
                             DỊCH VỤ
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="http://hocdang.com#team" class="nav-link" id="menu-item-2">
+                    <li class="nav-item {{request()->is('projects')?'active':''}}">
+                        <a href="{{route('projects')}}" class="nav-link" id="menu-item-2">
                             DỰ ÁN
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="http://hocdang.com#careers" class="nav-link" id="menu-item-3">
+                    <li class="nav-item {{request()->is('blog')?'active':''}}">
+                        <a href="{{route('blog')}}" class="nav-link" id="menu-item-3">
                             BLOG
                         </a>
                     </li>
-                    <li class="nav-item ">
-                        <a href="http://hocdang.com#contact" class="nav-link" id="menu-item-4">
+                    <li class="nav-item {{request()->is('contact')?'active':''}}">
+                        <a href="{{route('contact')}}" class="nav-link" id="menu-item-4">
                             LIÊN HỆ
                         </a>
                     </li>
@@ -57,10 +57,10 @@
             <div class="menu-block">
                 <nav class="menu-nav">
                     <ul>
-                        <li><a class="menu-nav__link" href="{{route('home')}}">Giới thiệu</a></li>
-                        <li><a class="menu-nav__link" href="{{route('home')}}">Dịch vụ</a></li>
-                        <li><a class="menu-nav__link" href="{{route('home')}}">Blog</a></li>
-                        <li><a class="menu-nav__link" id="contact" href="{{route('home')}}">Liên hệ</a></li>
+                        <li><a class="menu-nav__link" href="{{route('about')}}">Giới thiệu</a></li>
+                        <li><a class="menu-nav__link" href="{{route('services')}}">Dịch vụ</a></li>
+                        <li><a class="menu-nav__link" href="{{route('blog')}}">Blog</a></li>
+                        <li><a class="menu-nav__link" id="contact" href="{{route('contact')}}">Liên hệ</a></li>
                     </ul>
                 </nav>
                 <div class="menu-btn">
@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="container d-flex flex-column justify-content-center">
-        <h1>BRANDING</h1>
+        <h1>{{$site_title}}</h1>
         <h2>
             Chúng tôi là công ty thiết kế chuyên nghiệp <br>
             <div class="text0">Chúng tôi mang đến cho bạn</div>
