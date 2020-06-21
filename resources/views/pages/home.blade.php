@@ -5,14 +5,13 @@
     <section class="bin-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <img src="{{asset('images/logo-bin.png')}}">
+                <div class="col-md-6">
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-6">
                     <p>
                         BinBrand là đội ngũ chuyên nghiệp trong việc thiết kế sáng tạo nét riêng thương hiệu, chúng tôi mang đến giá trị thật và ấn tượng nhất cho bạn.
                     </p>
-                    <a href="#!" class="underline">See more</a>
+                    <a href="#!" class="underline see-more">See more</a>
                 </div>
             </div>
         </div>
@@ -75,11 +74,41 @@
     <section class="client-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <h3 class="section-title">Clients</h3>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-9">
                     <div class="row">
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <div class="client-item">
+                                <img src="{{asset('images/BW.png')}}">
+                            </div>
+                        </div>
                         <div class="col-6 col-md-2">
                             <div class="client-item">
                                 <img src="{{asset('images/BW.png')}}">
@@ -193,47 +222,6 @@
                             Xem thêm
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="section-title mb-4">Contact</h3>
-                </div>
-                <div class="col-md-8">
-                    <form>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Họ tên*" required>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="tel" placeholder="Số điện thoai*" required>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Email*" required>
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option>Dịch vụ</option>
-                                        <option value="1">Dịch vụ 1</option>
-                                        <option value="2">Dịch vụ 2</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3" placeholder="Ghi chú"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn-block btn btn-dark btn-lg">Gửi yêu cầu</button>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>

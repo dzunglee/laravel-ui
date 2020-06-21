@@ -45,6 +45,7 @@ mix.scripts([
     assetPath + '/js/bootstrap.min.js',
     assetPath + '/js/wow.js',
     assetPath + '/js/script.js',
+    assetPath + '/js/imagesloaded.pkgd.min.js',
     assetPath + '/js/isotope.pkgd.js',
     assetPath + '/js/slider.js',
     assetPath + '/js/particles.js',

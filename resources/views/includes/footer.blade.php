@@ -1,13 +1,44 @@
 <!-- /// FOOTER /// -->
 
-<section class="client-section">
+@if(request()->route()->getName() !== 'home')
+<section class="client-section" >
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <h3 class="section-title">Clients</h3>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <div class="row">
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="client-item">
+                            <img src="{{asset('images/BW.png')}}">
+                        </div>
+                    </div>
                     <div class="col-6 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
@@ -58,7 +89,6 @@
         </div>
     </div>
 </section>
-@if(request()->route()->getName() === 'home')
 <section>
     <div class="container">
         <h3 class="section-title mb-4">New Blog</h3>
@@ -127,13 +157,14 @@
     </div>
 </section>
 @endif
+
 <section class="contact-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3 class="section-title mb-4">Contact</h3>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <form>
                     <div class="row">
                         <div class="col-6">

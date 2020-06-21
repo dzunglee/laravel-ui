@@ -307,9 +307,16 @@ $(document).ready(function (e) {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #000 }";
   document.body.appendChild(css); // ISOTOPE
 
-  $('.grid').isotope({
-    itemSelector: '.grid-item'
-  }); // filter items on button click
+  var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+      columnWidth: '.grid-sizer'
+    }
+  }); // $grid.imagesLoaded().progress( function() {
+  //     $grid.isotope('layout');
+  // });
+  // filter items on button click
 
   $('.filter-button-group').on('click', 'div', function () {
     var filterValue = $(this).attr('data-filter');
