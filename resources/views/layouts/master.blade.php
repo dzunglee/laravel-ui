@@ -35,7 +35,7 @@
 </head>
 <body>
 @include('includes.header')
-<section id="...section">
+<section id="section">
     @yield('content')
 </section>
 @include('includes.footer')

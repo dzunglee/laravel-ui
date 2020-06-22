@@ -1,5 +1,5 @@
 <section class="container-fluid">
-    <img width="100%" src="{{asset('images/1571211179VbwryC6BF6G3d1l.jpg')}}">
+    <img width="100%" src="{{asset('images/1571211179VbwryC6BF6G3d1l.jpg')}}" alt="">
     <div class="d-flex filters filter-button-group w-100 justify-content-md-around pb-1">
         <div  class="active" data-filter="*">Tất cả</div>
         <div data-filter=".iso-1">Thiết kế Logo</div>

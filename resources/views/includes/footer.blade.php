@@ -9,77 +9,77 @@
             </div>
             <div class="col-md-9">
                 <div class="row">
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
                     </div>
-                    <div class="col-6 col-md-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-md-2">
                         <div class="client-item">
                             <img src="{{asset('images/BW.png')}}">
                         </div>
@@ -89,73 +89,11 @@
         </div>
     </div>
 </section>
+@if(request()->route()->getName() !== 'blog')
 <section>
-    <div class="container">
-        <h3 class="section-title mb-4">New Blog</h3>
-        <div class="row no-padding">
-            <div class="col-md-3">
-                <div class="blog-item">
-                    <div class="wrap-image">
-                        <img src="{{asset('images/blog@2x.jpg')}}">
-                    </div>
-                    <div class="content d-flex flex-column justify-content-end">
-                        <h4>10+ LOGOVUI
-                            NHÔN THU HÚT</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut .</p>
-                    </div>
-                    <div class="hover">
-                        Xem thêm
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="blog-item">
-                    <div class="wrap-image">
-                        <img src="{{asset('images/blog@2x.jpg')}}">
-                    </div>
-                    <div class="content d-flex flex-column justify-content-end">
-                        <h4>10+ LOGOVUI
-                            NHÔN THU HÚT</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut .</p>
-                    </div>
-                    <div class="hover">
-                        Xem thêm
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="blog-item">
-                    <div class="wrap-image">
-                        <img src="{{asset('images/blog@2x.jpg')}}">
-                    </div>
-                    <div class="content d-flex flex-column justify-content-end">
-                        <h4>10+ LOGOVUI
-                            NHÔN THU HÚT</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut .</p>
-                    </div>
-                    <div class="hover">
-                        Xem thêm
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="blog-item">
-                    <div class="wrap-image">
-                        <img src="{{asset('images/blog@2x.jpg')}}">
-                    </div>
-                    <div class="content d-flex flex-column justify-content-end">
-                        <h4>10+ LOGOVUI
-                            NHÔN THU HÚT</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut .</p>
-                    </div>
-                    <div class="hover">
-                        Xem thêm
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('partials.blog')
 </section>
+@endif
 @endif
 
 <section class="contact-section">

@@ -2008,6 +2008,27 @@ body .banner-index .description p{
   font-display: swap;
 }
 
+body {
+  font-family: "SVN-Visby CF", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "SVN-Visby CF", sans-serif;
+  font-weight: 900;
+}
+
+h1 {
+  font-weight: 800;
+}
+
 #main-header {
   padding: 40px 0;
   position: relative;
@@ -2027,7 +2048,7 @@ body .banner-index .description p{
 }
 
 #main-header h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   font-family: Montserrat Bold, sans-serif;
   margin-bottom: 13px;
@@ -2045,6 +2066,10 @@ body .banner-index .description p{
 #main-header .container {
   position: relative;
   flex: 1;
+}
+
+#main-header .txt-rotate {
+  font-weight: 800;
 }
 
 .container-fluid {
@@ -2111,6 +2136,7 @@ img {
 
 #main-footer .logo {
   max-width: 200px;
+  margin-bottom: 20px;
 }
 
 #main-footer h4 {
@@ -2157,7 +2183,7 @@ img {
 }
 
 .blog-item .content p {
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .blog-item .hover {
@@ -2217,7 +2243,7 @@ img {
 .team-section {
   background-color: black;
   color: white;
-  padding: 85px;
+  padding: 85px 0;
 }
 
 .team-item {
@@ -2322,16 +2348,20 @@ a {
 }
 
 .see-more {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .client-section .client-item img {
   max-width: 135px;
 }
 
-.col-md-2 {
-  flex: 0 0 20%;
-  max-width: 20%;
+@media (min-width: 1200px) {
+  .client-section .col-md-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
 }
 
 .grid-item,
@@ -2350,5 +2380,48 @@ a {
 
 .grid-item--height2 {
   height: 200px;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  max-width: 275px;
+  margin-top: 20px;
+}
+
+.service-item hr {
+  border-top: 4px solid #231f20;
+  margin-top: 2rem;
+}
+
+a:hover {
+  color: black;
+}
+
+.padding-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.blog {
+  padding: 80px 0;
+}
+
+.blog .single-blog {
+  margin-bottom: 40px;
+}
+
+.blog .single-blog h3 {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#hamburger {
+  display: none;
 }
 
