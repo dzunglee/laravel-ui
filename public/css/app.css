@@ -1,3 +1,131 @@
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFHeavyItalic.ttf?ede942ba1c7cd3defd9f0363217f1a55) format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFBold.ttf?2ed3211ebe5a40b0de28d1f85dcc00a8) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFMediumItalic.ttf?7acddfc2b6e4b92a63caa51e7e56ebe2) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFHeavy.ttf?5e392d3eaec59ca9a42d52fbc8438434) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFLight.ttf?c4646b910ff699be74552657013daf49) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFBoldItalic.ttf?4c8d988eb2e0940885b393300d6e3ea9) format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFExtraBold.ttf?a563909975b43e457aa502145b0e922a) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCF.ttf?45d36aeef91c26ba7fbd9e306d422ca3) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFThinItalic.ttf?b6d5443b91d9063fb32a533cd47333a1) format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFThin.ttf?ac01c277fc647165e732d8921be27779) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFExtraBoldItalic.ttf?473b3a5c5da887335d21fadf69bdd877) format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFDemiBold.ttf?41a51f3672b27d780c87a67d3796b081) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFLightItalic.ttf?94857fc9376f17212cdbf3266929254d) format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFDemiBoldItalic.ttf?54b6d05a9c897653b2beae0bd9c77287) format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFMedium.ttf?ceff48defb489e84a1bf602d85383cd3) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SVN-Visby CF";
+  src: url(/fonts/SVN-VisbyCFItalic.ttf?87a2c4dff6eacf8bc33218b0ffefdfca) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 #main-header {
   padding: 40px 0;
   position: relative;
